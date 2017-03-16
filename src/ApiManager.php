@@ -120,7 +120,7 @@ class ApiManager
     {
         // A path can be configured to the location of the library.
         $config = \Drupal::config('scorm_cloud.settings');
-        //$path = '/libraries/scorm_cloud';//$config->get('scorm_cloud_library_path');
+        $path = $config->get('scorm_cloud_library_path');
 
         if (!$path) {
             // Check if the libraries module is installed and if the example library is
