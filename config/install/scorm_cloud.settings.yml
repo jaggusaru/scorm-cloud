@@ -1,0 +1,7 @@
+scorm_cloud_servicesurl: 'http://cloud.scorm.com/EngineWebServices'
+scorm_cloud_appid: ''
+scorm_cloud_secretkey: ''
+scorm_cloud_registration_email: 'mail'
+scorm_cloud_registration_firstname: 'ask'
+scorm_cloud_registration_lastname: 'ask'
+scorm_cloud_library_path: ''
