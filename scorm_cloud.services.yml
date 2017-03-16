@@ -1,9 +1,0 @@
-services:
-  scorm_cloud.api_manager:
-    class: Drupal\scorm_cloud\ApiManager
-  scorm_cloud.course_manager:
-    class: Drupal\scorm_cloud\CourseManager
-    arguments: ['@scorm_cloud.api_manager']
-  scorm_cloud.registration_manager:
-    class: Drupal\scorm_cloud\RegistrationManager
-    arguments: ['@scorm_cloud.api_manager','@entity.query', '@entity.manager']
