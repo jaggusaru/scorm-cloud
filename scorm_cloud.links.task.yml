@@ -1,0 +1,41 @@
+scorm_cloud.admin_scorm_cloud_settings_tab:
+  route_name: scorm_cloud.settings
+  title: Configuration
+  base_route: scorm_cloud.settings
+
+scorm_cloud.admin_scorm_cloud_cources_tab:
+  route_name: scorm_cloud.course_list
+  title: Courses
+  base_route: scorm_cloud.settings
+
+scorm_cloud.admin_scorm_cloud_registration_tab:
+  route_name: scorm_cloud.registration_list
+  title: Registration
+  base_route: scorm_cloud.settings
+
+scorm_cloud.admin_scorm_cloud_apitest_tab:
+  route_name: scorm_cloud.API_test
+  title: API Test
+  base_route: scorm_cloud.settings# Scorm cloud registration routing definition
+# Registration routing definition
+registration.settings_tab:
+  route_name: registration.settings
+  title: 'Settings'
+  base_route: registration.settings
+
+entity.registration.canonical:
+  route_name: entity.registration.canonical
+  base_route: entity.registration.canonical
+  title: 'View'
+
+entity.registration.edit_form:
+  route_name: entity.registration.edit_form
+  base_route: entity.registration.canonical
+  title: 'Edit'
+
+entity.registration.delete_form:
+  route_name:  entity.registration.delete_form
+  base_route:  entity.registration.canonical
+  title: Delete
+  weight: 10
+
